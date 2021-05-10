@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap");
+*,
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #cce4e4;
+  color: #2596be;
+}
+
+a {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+
+header {
+  /* background: red; */
+  height: 10vh;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header nav {
+  /* background: blue; */
+  width: 100%;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+header nav ul li {
+  flex: 1;
+  border: solid 2px #454545;
+  padding: 1rem;
+  text-align: center;
+}
+
+header nav ul li a {
+  /* background: red; */
+  color: #2596be;
+}
+
+.course_wrapper {
+  height: 80vh;
+  width: 80%;
+  margin: 0 auto;
+  /* background: red; */
+}
+
+.course {
+  display: flex;
+  height: 70vh;
+}
+
+.course :is(.course_left_wrapper, .course_right_wrapper) {
+  flex: 1;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border: solid 2px #454545;
+  /* background-color: red; */
+}
+
+.course .course_left_wrapper {
+  background: url(/img/undraw_map_1r69.svg);
+  background-size: cover;
+}
+
+.course .course_left_wrapper button {
+  padding: 1rem;
+  letter-spacing: 2px;
+  background: #2596be;
+  color: white;
+  font-size: 20px;
+  border: solid 1px #2596be;
+  transition: all 0.5s;
+}
+
+.course .course_left_wrapper button:hover {
+  background: #454545;
+  color: white;
+  border: solid 1px white;
+}
+
+.course .course_right_wrapper .course_name {
+  color: #2c6a60;
+}
+
+.next_course {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.next_course .next_course_btn {
+  padding: 1rem;
+  background: #2c6a60;
+  color: white;
+  font-size: 20px;
+  letter-spacing: 2px;
+
+  transition: all 0.5s;
+}
+.next_course .next_course_btn:hover {
+  background: #454545;
+  color: white;
+}

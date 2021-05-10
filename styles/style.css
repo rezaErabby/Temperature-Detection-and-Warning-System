@@ -1,0 +1,47 @@
+/* Global styles */
+@import url("https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap");
+*,
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #cce4e4;
+  color: #2596be;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Navigation Section  */
+header {
+  height: 10vh;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+nav {
+  /* background: red; */
+  width: 30%;
+}
+header nav ul {
+  /* background: red; */
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+header nav ul li a {
+  color: #2596be;
+  font-size: 20px;
+  font-family: monospace;
+  font-weight: 800;
+  font-style: normal;
+}

@@ -1,0 +1,61 @@
+.form_container {
+  padding: 5rem;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form_container form {
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.form_container form :is(.form_left, .form_right) {
+  display: flex;
+  flex-direction: column;
+}
+.form_container form :is(.form_left, .form_right) h1 {
+  padding: 2rem;
+}
+.form_container form :is(.form_left, .form_right) span {
+  border-top: solid 2px #2c6a60;
+}
+
+.form_container form :is(.form_left, .form_right) :is(input, select) {
+  background: transparent;
+  width: 100%;
+  border: none;
+  outline: none;
+  margin: 10px;
+  color: #2c6a60;
+  font-size: 20px;
+}
+
+.register_btn {
+  width: 40px;
+  font-size: 25px;
+  background: #2c6a60;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid #454545;
+  cursor: pointer;
+  color: white;
+  border-radius: 100px;
+  text-align: center;
+  transition: all 0.5s;
+}
+
+.register_btn span {
+  margin-top: 2px;
+}
+
+.register_btn:hover {
+  background: #2c6a;
+  font-size: 27px;
+}

@@ -1,0 +1,41 @@
+.login_container .form_container {
+  width: 80%;
+  margin: 0 auto;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  align-items: center;
+}
+
+.login_container .form_container h1 {
+  text-transform: uppercase;
+}
+
+.login_container .form_container form {
+  padding: 5rem;
+
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login_container .form_container form span {
+  border-top: solid 2px #2c6a60;
+
+  width: 100%;
+}
+
+.login_container .form_container form input {
+  background: transparent;
+  width: 100%;
+  border: none;
+  outline: none;
+  margin: 10px;
+  color: #2c6a60;
+
+  font-size: 20px;
+}
