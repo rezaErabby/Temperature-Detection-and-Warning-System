@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/st/styles/style.css" />
+    <link rel="stylesheet" href="/st/styles/register.css" />
+    <title>Register</title>
+  </head>
+  <body>
+    <div class="register_container">
+      <!-- Navigation Section -->
+      <header>
+        <nav>
+          <ul>
+            <li><a href="/st/view/login.html">Login</a></li>
+            <li><a href="/st/view/register.html">Register</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Registrattion form -->
+
+      <div class="form_container">
+        <form action="" method="POST">
+          <div class="form_left">
+            <h1 class="form_left_heading">Basic Information</h1>
+            <span><input type="text" name="Name" placeholder="name" /></span>
+            <span><input type="text" name="Email" placeholder="email" /></span>
+            <span
+              ><input type="text" name="password" placeholder="password"
+            /></span>
+            <span>
+              <input type="text" name="country" placeholder="country" />
+            </span>
+            <span>
+              <input type="text" name="contactno" placeholder="contactno" />
+            </span>
+            <span>
+              <input type="date" name="dob" placeholder="date of birth" />
+            </span>
+            <span>
+              <select name="gender" id="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+              </select>
+            </span>
+          </div>
+
+          <button
+            type="button"
+            class="register_btn"
+            onclick="window.location.href='/st/view/login.html'"
+          >
+            <span>R</span>
+            <span>e</span><span>g</span><span>i</span><span>s</span
+            ><span>t</span><span>e</span><span>r</span>
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

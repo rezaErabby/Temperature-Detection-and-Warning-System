@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/st/styles/style.css" />
+    <link rel="stylesheet" href="/st/styles/login.css" />
+    <title>Register</title>
+  </head>
+  <body>
+    <div class="login_container">
+      <!-- Navigation Section -->
+      <header>
+        <nav>
+          <ul>
+            <li><a href="/st/view/login.html">Login</a></li>
+            <li><a href="/st/view/register.html">Register</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Login form -->
+
+      <div class="form_container">
+        <h1>Log into your THS account</h1>
+        <form>
+          <span>
+            <input type="email" name="email" placeholder="Email" />
+          </span>
+          <span>
+            <input type="password" name="password" placeholder="Password" />
+          </span>
+
+          <input
+            type="button"
+            value="Login"
+            class="login_button"
+            onclick="window.location.href ='/st/view/user/aac_index.php'"
+          />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
